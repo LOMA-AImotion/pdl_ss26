@@ -1,0 +1,23 @@
+# Core deep learning
+torch>=2.2.0
+torchvision>=0.17.0
+torchaudio>=2.2.0
+
+# Numerical computing
+numpy>=1.26.0
+
+# Visualisation
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Classical ML utilities & metrics
+scikit-learn>=1.4.0
+
+# Notebooks
+jupyter>=1.0.0
+jupyterlab>=4.1.0
+ipywidgets>=8.1.0
+
+# Utilities
+tqdm>=4.66.0
+Pillow>=10.2.0
