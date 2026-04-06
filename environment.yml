@@ -1,0 +1,23 @@
+name: pdl_ss26
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pytorch>=2.2.0
+  - torchvision>=0.17.0
+  - torchaudio>=2.2.0
+  - pytorch-cuda=12.1          # remove or change if you have no CUDA GPU
+  - numpy>=1.26.0
+  - matplotlib>=3.8.0
+  - seaborn>=0.13.0
+  - scikit-learn>=1.4.0
+  - jupyter>=1.0.0
+  - jupyterlab>=4.1.0
+  - ipywidgets>=8.1.0
+  - tqdm>=4.66.0
+  - pillow>=10.2.0
+  - pip
+  - pip:
+      - jupyterlab-widgets
